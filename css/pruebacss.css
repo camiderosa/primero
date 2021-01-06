@@ -1,0 +1,123 @@
+header {
+  position: sticky;
+  top: 0px;
+  background-color: #E17457;
+  z-index: 100; }
+  header nav {
+    background-color: #E17457 !important; }
+    header nav a {
+      font-family: 'Roboto', sans-serif;
+      color: #e0dede; }
+
+main {
+  margin: 20px; }
+  main p {
+    text-align: center;
+    margin: 20px;
+    font-size: large; }
+  main h2 {
+    color: #E17457;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 65px;
+    text-align: center; }
+
+.segunda {
+  background-color: #DB2E62;
+  display: flex;
+  justify-content: space-around; }
+  .segunda h2 {
+    color: #e0dede;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 65px;
+    text-align: center; }
+  .segunda aside {
+    background-color: #DB2E62; }
+    .segunda aside img {
+      width: 550px;
+      height: 400px;
+      margin-left: 50px;
+      margin-bottom: 15px; }
+  .segunda article p {
+    text-align: center;
+    color: #e0dede;
+    margin-top: 80px;
+    font-size: large; }
+
+.tercera {
+  background-color: #5EA595;
+  display: flex;
+  justify-content: space-around; }
+  .tercera article p {
+    text-align: center;
+    color: #e0dede;
+    margin-top: 50px;
+    font-size: large; }
+  .tercera aside {
+    background-color: #5EA595; }
+    .tercera aside img {
+      width: 550px;
+      height: 400px;
+      margin-right: 50px;
+      margin-bottom: 15px;
+      margin-top: 15px; }
+
+footer {
+  background-color: #3c3c3c; }
+  footer p {
+    color: #e0dede; }
+
+.divServicios {
+  margin-top: 35px; }
+  .divServicios p {
+    font-size: x-large; }
+  .divServicios .p2 {
+    color: #DB2E62;
+    font-weight: bold; }
+  .divServicios .p3 {
+    font-size: xx-large;
+    color: #E17457;
+    font-weight: bolder; }
+
+.descripcionServiciosAzul {
+  background-color: #2C3673; }
+  .descripcionServiciosAzul article {
+    margin-top: 15px; }
+  .descripcionServiciosAzul h2 {
+    font-family: 'Cookie', cursive;
+    color: white;
+    font-size: 65px;
+    text-align: center; }
+  .descripcionServiciosAzul img {
+    margin-bottom: 15px; }
+  .descripcionServiciosAzul div {
+    margin-top: 30px; }
+    .descripcionServiciosAzul div p {
+      color: #e0dede;
+      font-size: large; }
+    .descripcionServiciosAzul div .precio {
+      font-size: xx-large;
+      font-weight: bolder;
+      color: white; }
+
+.descripcionServiciosBlanco article {
+  margin-top: 15px; }
+
+.descripcionServiciosBlanco h2 {
+  font-family: 'Cookie', cursive;
+  color: #DB2E62;
+  font-size: 65px;
+  text-align: center; }
+
+.descripcionServiciosBlanco img {
+  margin-bottom: 15px;
+  margin-left: 25px; }
+
+.descripcionServiciosBlanco div {
+  margin-top: 30px; }
+  .descripcionServiciosBlanco div p {
+    color: #6e6c6c;
+    font-size: large; }
+  .descripcionServiciosBlanco div .precio {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #DB2E62; }

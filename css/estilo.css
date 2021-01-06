@@ -1,0 +1,148 @@
+*{margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {position: sticky;
+    top: 0px ;
+    background-color: #E17457;
+    z-index: 100}
+
+.header__logo {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar{
+    background-color: #E17457 !important
+}
+.collapse {
+    background-color: #E17457;
+}
+.nav-item {
+    font-family:'Roboto', sans-serif;
+    color:#e0dede ;
+}
+.nav-item:hover {
+    background-color:#6e6c6c ;
+    color: #e0dede;
+}
+
+/* .menu { 
+        list-style: none;
+        font-size: 0;
+        text-align: center;}    
+li {
+    display: inline-block;
+     width:15%; position: relative; 
+     font-size: 25px;
+    border: solid 1px #D86650;
+    background-color:#E17457;
+    text-align: center;}
+ul li ul {
+    position: relative;
+    display: none;
+    width: 15%;}
+ul ul li {
+    display: block;
+    width: 15%;}
+ul li:hover ul {
+    display: block;}
+a {
+ text-decoration: none;
+ color: silver;
+ font-family: 'Roboto', sans-serif; 
+}
+li:hover {
+   background-color:#E17457
+}   */
+main {
+    margin: 20px;
+}
+p {
+    text-align: center;
+    margin: 20px;
+}
+.p2 {
+    color: #DB2E62;
+     font-weight: bold;
+     font-size: x-large;
+}
+.sobreMi{
+    color: #DB2E62 ;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 65px;
+    text-align: center;
+    }
+
+.fondoNaranja {
+    background-color:#E17457}    
+
+.tituloAzul{
+        color: #2C3673;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 65px;
+        text-align: center;
+        transition: 1s;
+        animation-duration: 2s;
+    animation-name: aparecer;}   
+.seccion {
+        background-color:#E17457 ;
+        display: flex;
+        justify-content: space-around;
+    }    
+
+.cardP {
+    margin: 0px;
+    padding: 0px;
+    background-color:#E17457
+}
+
+h5 {
+    color: #3d3c3c;
+    text-align: center;
+}
+.card-text {
+    color: #3d3c3c;
+}
+.btn {
+    background-color:#2C3673;
+    text-align: center;
+}
+.carousel-item {
+    /* width: 500px;
+    height: 200px; */
+    margin: auto;
+}
+
+.margen {
+    margin-top: 15px;
+}
+
+.servicios {
+    color: #2C3673 ;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 65px;
+    text-align: center;
+    }
+
+.fotosIzquierda {
+    margin-left: 50px;
+}
+.botonNaranja {
+    background-color:#E17457 !important;
+    text-align: center;
+}
+h1 {
+    font-family: 'Cookie', cursive;
+        color:#2C3673;
+        font-size: 90px;
+        text-align: center;
+        margin: 30px;
+}
+.blog {
+    font-family:'Roboto', sans-serif;
+    color:#3d3d3d;
+    font-size: large;
+    font-weight: bold;
+}

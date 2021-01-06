@@ -1,0 +1,163 @@
+@import "colores";
+
+header {
+    position: sticky;
+    top: 0px ;
+    background-color: $color-naranja;
+    z-index: 100 ;
+    nav {
+        background-color: $color-naranja !important ;
+        a {
+            font-family:'Roboto', sans-serif;
+            color: $color-grisclaro ;
+        }
+    }
+}
+
+main {
+    margin: 20px;
+    p {
+        text-align: center;
+         margin: 20px;
+         font-size: large;
+    }
+    h2 {
+        color: $color-naranja;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 65px;
+        text-align: center;
+    }
+   }
+.segunda {
+    background-color: $color-rosa ;
+    display: flex;
+    justify-content: space-around;
+    h2 {
+        color: $color-grisclaro;
+        font-family: 'Bebas Neue', cursive;
+    font-size: 65px;
+    text-align: center;
+    }
+   aside {
+    background-color: $color-rosa;
+    img {
+        width: 550px ; height: 400px ;
+        margin-left: 50px;
+        margin-bottom: 15px;
+    }
+    }
+    article {
+        p { 
+            text-align: center;
+        color: $color-grisclaro;
+        margin-top: 80px;
+        font-size: large;
+        }
+    }   
+    }
+.tercera {
+        background-color: $color-celeste ;
+        display: flex;
+        justify-content: space-around;
+        article {
+            p { 
+                text-align: center;
+            color: $color-grisclaro;
+            margin-top: 50px;
+            font-size: large;
+            }
+        }   
+       aside {
+        background-color: $color-celeste;
+        img {
+            width: 550px ; height: 400px ;
+            margin-right: 50px;
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+        }
+        }
+footer {
+      background-color: #3c3c3c;
+      p {
+        color: $color-grisclaro;
+      }}
+
+.divServicios {
+        margin-top: 35px;
+        p {
+            font-size: x-large;
+        }
+        .p2 {
+            color: $color-rosa;
+            font-weight: bold;
+        }
+        .p3 {
+            font-size: xx-large;
+            color: $color-naranja;
+            font-weight: bolder;
+        }
+    }
+.descripcionServiciosAzul {
+    background-color: $color-azul;
+    article {
+        margin-top: 15px;
+    }
+    h2 {
+        font-family: 'Cookie', cursive;
+        color: white;
+        font-size: 65px;
+        text-align: center;
+    }
+    img {
+        // width: 550px ; height: 400px ;
+        margin-bottom: 15px;
+    }
+    div {
+        margin-top: 30px;
+        p {
+            color: $color-grisclaro;
+            font-size: large;
+        }
+        .precio {
+            font-size: xx-large;
+            font-weight: bolder;
+            color: white;
+        }
+    }
+    
+}
+.descripcionServiciosBlanco {
+    article {
+        margin-top: 15px;
+    }
+    h2 {
+        font-family: 'Cookie', cursive;
+        color:$color-rosa;
+        font-size: 65px;
+        text-align: center;
+    }
+    img {
+        // width: 550px ; height: 400px ;
+        margin-bottom: 15px;
+        margin-left: 25px;
+    }
+    div {
+        margin-top: 30px;
+        p {
+            color: $color-grisoscuro;
+            font-size: large;
+        }
+        .precio {
+            font-size: xx-large;
+            font-weight: bolder;
+            color: $color-rosa;
+        }
+    }
+    
+}
+.blog {
+    display: flex;
+    justify-content: space-around;
+    
+}
