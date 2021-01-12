@@ -2,9 +2,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
-body{
+/* body{
     overflow-x: hidden;
- }
+ } */
 
 header {position: sticky;
     top: 0px ;
